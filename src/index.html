@@ -1,12 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 </head>
+
 <body>
-    
+    <header>
+        <nav class="header-container">
+            <a href="#" class="header-logo"><img src="icons/xbox.svg" alt="logo"></a>
+            <ul class="navbar-items">
+                <li class="navbar-item">Games</li>
+                <li class="navbar-item">Consoles</li>
+                <li class="navbar-item">Community</li>
+                <li class="navbar-item_search">
+                    <input type="search" placeholder="Search" name="search" id="search">
+                </li>
+                <li class="navbar-item">My XBOX</li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main">
+        <!--Главный контейнер слайдера-->
+        <div class="image-slider swiper-container">
+            <!--Слайдер текста-->
+            <div class="slider-text">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide slider-text__slide">
+                        <div class="slider-text__content">
+                            <p class="slider-text__heading">Star Wars<br>Battlefront II</p>
+                            <a href="" class="button-slider button-slider__button-1">Watch Trailer</a>
+                            <a href="" class="button-slider button-slider__button-2">Explore Games</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-text__slide">
+                        <div class="slider-text__content">
+                            <p class="slider-text__heading">Devil May<br>Cry 5</p>
+                            <a href="" class="button-slider button-slider__button-1">Watch Trailer</a>
+                            <a href="" class="button-slider button-slider__button-2">Explore Games</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide slider-text__slide">
+                        <div class="slider-text__content">
+                            <p class="slider-text__heading">Halo<br>Infinite</p>
+                            <a href="" class="button-slider button-slider__button-1">Watch Trailer</a>
+                            <a href="" class="button-slider button-slider__button-2">Explore Games</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Главная обертка-->
+            <div class="image-slider_wrapper swiper-wrapper">
+                <!--Слайд1-->
+                <div class="image-slider-slide swiper-slide">
+                    <img class="slider-img" src="img/Star-Wars-Battlefront-II-combat.jpg" alt="">
+                </div>
+                <div class="image-slider-slide swiper-slide">
+                    <img class="slider-img" src="img/devil-may-cry-5.jpg" alt="">
+                </div>
+                <div class="image-slider-slide swiper-slide">
+                    <img class="slider-img" src="img/halo-infinite.jpg" alt="">
+                </div>
+            </div>
+            <!--Стрелки-->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <!--Пагинация-->
+            <div class="slider-pagination">
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+    <section class="best">
+        <div class="best__container">
+            <div class="best__content">
+                <h1 class="best__caption">The best value</h1>
+                <p class="best__descr">in games and entertainment</p>
+                <div class="best__cards-container">
+                    <div class="best__card-item">
+                        <img src="img/xbox-one-x.jpg" alt="" class="best__card-item-image">
+                        <p class="best__card-item-descr">XBOX ONE X</p>
+                        <h4 class="best__card-item-title">Faster Processing
+                            Smoother Gameplay</h4>
+                        <button href="#" class="best__card-item-btn">Explore Consoles & Accessories</button>
+                    </div>
+                    <div class="best__card-item">
+                        <img src="img/mixer.jpg" alt="" class="best__card-item-image">
+                        <p class="best__card-item-descr">mixer Streaming</p>
+                        <h4 class="best__card-item-title">The Next Generation
+                            Of Life Game Streaming</h4>
+                        <button href="#" class="best__card-item-btn">Start Watching mixer</button>
+                    </div>
+                    <div class="best__card-item">
+                        <img src="img/gold.jpg" alt="" class="best__card-item-image">
+                        <p class="best__card-item-descr">Free Games Every Month</p>
+                        <h4 class="best__card-item-title">Get up to $700 in 
+                            free games</h4>
+                        <button href="#" class="best__card-item-btn">Get Free Games</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="exclusive">
+        
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
 </html>
