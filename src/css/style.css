@@ -340,5 +340,53 @@ input[type="search" i] {
     padding-top: 58px;
     justify-content: left;
     margin: 0 auto;
+    gap: 275px;
 }
-
+.footer-container_item {
+    display: flex;
+    flex-direction: column;
+}
+.footer-container_item__title {
+    color: #7DD42F;
+    font-family: 'HelveticaNeue bold';
+    font-size: 18px;
+    padding-bottom: 34px;
+}
+.footer-container_item__descr {
+    color: #FFFFFF;
+    font-family: 'HelveticaNeue';
+    font-size: 14px;
+    padding-bottom: 29px;
+}
+.footer-container_item__img {
+    display: flex;
+    gap: 20px;
+}
+.footer-down-info {
+    position: relative;
+    display: flex;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #FFFFFF;
+    font-family: 'HelveticaNeue';
+    font-size: 16px;
+    padding-top: 41px;
+    padding-bottom: 35px;
+}
+.language {
+    text-align: left;
+    flex-grow: 1;
+}
+.copyright {
+    flex-grow: 1;
+    text-align: right;
+}
+.footer-down-info::before {
+    content: '';
+    background-color: #D8D8D8;
+    height: 1px;
+    width: 1200px;
+    position: absolute;
+    top: 19px;
+}
