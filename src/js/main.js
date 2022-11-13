@@ -12,6 +12,7 @@ const swiperIMG = new Swiper('.image-slider',{
 });
 
 const swiperText = new Swiper('.slider-text');
-
 swiperIMG.controller.control = swiperText
 swiperText.controller.control = swiperIMG
+
+
