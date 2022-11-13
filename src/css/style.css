@@ -390,3 +390,54 @@ input[type="search" i] {
     position: absolute;
     top: 19px;
 }
+.main-dmc5 {
+    background-image: url('../img/devil-may-cry-5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+.main-wrapper {
+    max-width: 856px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+    height: 95%;
+}
+.main-wrapper_content {
+    display: flex;
+    max-width: 297px;
+    flex-direction: column;
+    padding-top: 106px;
+    text-align: right;
+    color: #FFFFFF;
+}
+.main-caption {
+    font-family: 'HelveticaNeue';
+    font-size: 36px;
+    padding-bottom: 5px;
+}
+.main-descr {
+    font-family: 'HelveticaNeue';
+    font-size: 14px;
+    padding-bottom: 139px;
+}
+.main-wrapper_content__btn {
+    display: flex;
+    gap: 13px;
+}
+.main_content__btn {
+    padding: 9px 29px;
+    background-color: #8DD83D;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.main-halo {
+    background-image: url('../img/halo-infinite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
