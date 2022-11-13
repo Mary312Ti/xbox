@@ -432,6 +432,7 @@ input[type="search" i] {
     background-color: #8DD83D;
     border-radius: 4px;
     color: #FFFFFF;
+    font-family: 'HelveticaNeue';
 }
 .main-halo {
     background-image: url('../img/halo-infinite.jpg');
