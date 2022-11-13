@@ -433,6 +433,7 @@ input[type="search" i] {
     border-radius: 4px;
     color: #FFFFFF;
     font-family: 'HelveticaNeue';
+    font-size: 14px;
 }
 .main-halo {
     background-image: url('../img/halo-infinite.jpg');
